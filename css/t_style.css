@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Europe;
+    font-weight: 10;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+font-family: "Europe";
+src: url('test/fonts/europenormal.ttf') format("truetype");
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    
+    padding: 0 30px;
+    align-items: center;
+    height: 137px;
+    background: white;
+    border-bottom: 1px solid #F2F1F0;
+    box-sizing: border-box;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+
+}
+
+@media (max-width: 820px) {
+    .header {
+        display: inherit;
+    }
+}
+
+.menu{
+    display: block;
+    
+}
+
+@media (max-width: 820px) {
+    .menu {
+        margin-top: 30px;
+    }
+}
+
+.menu h2:not(:nth-child(3)) {
+    margin-right: 60px;
+}
+
+.name{
+
+text-align: center;
+letter-spacing: 0.5em;
+color: white;
+font-size: 60px;
+
+}
+.gallery{
+    color: white;
+}
+.Gallery{
+    padding-top: 150px;
+    color: black;
+    background: white;
+    text-align: center;
+    
+    
+}
+.About{
+    padding-top: 32px;
+    color: #88222C;
+    background:white ;
+    text-align: center;
+    
+}
+.about_title{
+    font-size: 50px;
+}
+.characters_title{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.gallery_title{
+    margin-bottom: 20px;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding: 10px;
+    font-size: 35px;
+    background: rgb(236,102,8);
+    color: white;
+}
+
+.marka{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 13px;
+    z-index: 1;
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+}
+.marka2{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 13px;
+    z-index: 1;
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+}
+.marka3{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 13px;
+    z-index: 1;
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+}
+.marka4{
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 13px;
+    z-index: 1;
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.bg_image {
+    background: url("test/img/fon.png");
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+    height: 40px;
+    margin: 8px;
+}
+.forms{
+    display: flex;
+    margin-left: 80px;
+    margin-left: 50px;
+    padding-left: 130px;
+}
+  
+
+.form2 {
+
+  display: block;
+    margin: px;
+   
+    position: relative;
+ 
+}
+
+.form1 {
+
+ margin-left: 100px;
+ 
+}
+select{
+    margin-left: 10px;
+    width: 215px;
+    font-size: 20px;
+  
+}
+
+.faska{
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.checkmark {
+    border: 1px rgb(236,102,8);
+}
+
+.svoystva{
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 14px;
+    color: rgb(236,102,8);
+    text-decoration: underline;
+   
+}
+
+.ispytania{
+    margin-top: 20px;
+    margin-left:15px;
+    text-align: left;
+    font-size: 28px;
+    color: rgb(236,102,8);
+    text-decoration: underline;
+   
+}
+
+.button1{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 10px;
+   
+
+}
+
+
+@media (max-width: 768px) {
+    
+    .pic1 {
+        padding: 0 30px;
+}
+    .pic1 img {
+        width: 100%;
+    }
+    
+    .pic4 {
+        padding: 0 30px;
+}
+    .pic4 img {
+        width: 100%;
+    }
+    
+    .pic7 {
+        padding: 0 30px;
+}
+    .pic7 img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .pic1 {
+        padding: 0 30px;
+}
+
+    
+    .pic4 {
+        padding: 0 30px;
+}
+
+    
+    .pic7 {
+        padding: 0 30px;
+}
+
+}
+
+A{
+    text-decoration:none; 
+}
+A:visited{
+    color:#F2F1F0;
+    text-decoration:none; 
+}
+.Characters{
+    padding-top: 32px;
+   
+    color: black;
+    background:white;
+    text-align: center;
+    
+}
+
+.characters_title{
+    margin-bottom: 20px;
+}
+.char-header{
+    border-bottom: 1px solid black;
+}
+.one_characters_block{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+.one_characters_block div:not(:last-child) {
+    margin-right: 30px;
+}
+
+@media (max-width: 1200px) {
+    .one_characters_block {
+        
+    }
+}
+.two_characters_block{
+    margin-top: 45px;
+    font-size: 30px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.one_characters_block div {
+    margin-bottom: 30px;
+}
+
+.two_characters_block div:not(:last-child) {
+    margin-right: 30px;
+}
+
+.Vega{
+    font-size: 40px;
+}
+.Bertram{
+    font-size: 40px;
+}
+.Dominik{
+    font-size: 40px;
+}
+.Samson{
+    font-size: 40px;
+}
+.Villie{
+    font-size: 40px;
+}
+.Roderick{
+    font-size: 40px;
+}
+.Text{
+   
+    font-size: 25px;
+    text-align: left;
+    align-self: center;
+}
+
+.Contacts{
+    font-size: 25px;
+    
+    
+}
+.About_Author{
+    margin-left: 45px;
+    margin-right: 50px;
+    width: 500px;
+    
+}
+
+.Text_and_contacts{
+    margin-top: 45px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .Text_and_contacts {
+        display: inherit;
+    }
+    
+    .Contacts_Text {
+        margin-top: 50px;
+    }
+    
+    .About_Author {
+        text-align: center;
+        font-size: 24px;
+        margin: 0 auto;
+    }
+}
+
+.Icons{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ic1{
+     margin: 30px;
+}
+.ic2{
+     margin: 30px;
+}
+.ic3{
+     margin: 30px;
+}
+
+
+.logo {
+    position: relative;
+}
+
+@media (max-width: 820px) {
+    .logo {
+        width: 282px;
+    }
+}
+
+.line {
+    position: absolute;
+}
+
+.line1 {
+    top: 0;
+    left: 53%;
+}
+
+.line2 {
+    top: 25%;
+    left: 55%;
+}
+
